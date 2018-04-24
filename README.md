@@ -5,7 +5,7 @@ A sign language is a language which uses manual communication and body language 
 
 The goal of this project consists developing an automatic Kinect Phoneme Interpreter using the data provided by the Microsoft Kinect XBOX 360 camera.
 
-Based off of kinect-sign-language by Svilen Popov. https://github.com/svil4ok/kinect-sign-language
+This is an extension of kinect-sign-language by Svilen Popov (https://github.com/svil4ok/kinect-sign-language). This removes all previous signs and adds 38 new gestures that are linked to phonemes in English. Sections of the code were altered to properly run the gestures added but the program largely remains the same from Popov's version.
 
 System Requirements
 -----------
@@ -31,3 +31,7 @@ Software requirements:
 [.NET Framework 4.5]:http://www.microsoft.com/en-us/download/details.aspx?id=30653
 [Kinect for Windows SDK 1.8]:http://www.microsoft.com/en-us/download/details.aspx?id=40278
 [Kinect for Windows Developer Toolkit v1.8]:http://www.microsoft.com/en-us/download/details.aspx?id=40276
+
+To Download and Run
+-----------
+To download this tool, you need to first download .NET Framework 4.5, Kinect for Windows SDK 1.8, and Kinect for Windows Developer Toolkit v1.8 listed above. This is able to be run on computers running Windows 7, Windows 8, Windows 8.1, and Windows Embedded Standard 7.  Visual Studio 2012 or newer is needed to run the software (https://www.visualstudio.com/downloads/). A Kinect needs an AC adapter power supply USB cable cord to be connected to the laptop to have power. The main program of the tool is opened in Visual Studio and is named KinectSignLangauge. Once opened, hit the start button and it will begin to debug. Once finished, it will open a new window named Kinect Sign Language :: beta. This window displays the Kinect using skeletal tracking in real-time. When it recognizes a word, it will display the word at the bottom of the screen. When a new word is recognized, it will replace the previously recognized word with the new one. 
