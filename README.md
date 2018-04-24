@@ -1,9 +1,6 @@
-Kinect Sign Language
+Kinect Phoneme Interpreter
 ====================
-
-A sign language is a language which uses manual communication and body language to convey meaning, as opposed to acoustically conveyed sound patterns. This can involve simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions to fluidly express a speaker's thoughts. Wherever communities of deaf people exist, sign languages have been developed. Signing is not only used by the deaf, it is also used by people who can hear, but cannot physically speak.
-
-The goal of this project consists developing an automatic Kinect Phoneme Interpreter using the data provided by the Microsoft Kinect XBOX 360 camera.
+People who are hearing or speaking impaired face many challenges throughout their life, with one of the biggest challenges being communicating with others. Being able to communicate effectively with others can greatly reduce the stress of their everyday lives. The goal of this project was to design a system utilizing the Microsoft Kinect that is able to understand and accurately interpret certain gestures that are linked to phonemes in English.
 
 This is an extension of kinect-sign-language by Svilen Popov (https://github.com/svil4ok/kinect-sign-language). This removes all previous signs and adds 38 new gestures that are linked to phonemes in English. Sections of the code were altered to properly run the gestures added but the program largely remains the same from Popov's version.
 
